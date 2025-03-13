@@ -66,5 +66,5 @@ password = st.text_input("Entre your password:", type= "password", help= "Ensure
 if st.button("Check Strength"):
     if password:
         check_password_strength(password)
-    else
+    else:
         st.warning("⚠️ Please entre a password first!") #show warning if password empty
